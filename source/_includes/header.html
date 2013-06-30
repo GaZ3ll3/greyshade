@@ -27,7 +27,10 @@
 		<a class="coderwall" href="https://coderwall.com/{{ site.coderwall_user }}" title="Coderwall">Coderwall</a>
 		{% endif %}
 		{% if site.stackoverflow_user and site.stackoverflow_user_id %}
-		  <a class="stackoverflow" href="http://stackoverflow.com/users/{{site.stackoverflow_user_id}}/{{site.stackoverflow_user}}" title="StackOverflow"></a>
+		  <a class="stackoverflow" href="http://stackoverflow.com/users/{{site.stackoverflow_user_id}}/{{site.stackoverflow_user}}" title="StackOverflow">StackOverFlow</a>
+		{% endif %}
+		{% if site.mathstackexchange_user and site.mathstackexchange_user_id %}
+		  <a class="mathstackexchange" href="http://math.stackexchange.com/users/{{site.mathstackexchange_user_id}}/{{site.mathstackexchange_user}}" title="MathStackExchange">MathStackExchange</a>
 		{% endif %}
 		{% if site.linkedin_user %}
 		<a class="linkedin" href="http://www.linkedin.com/in/{{ site.linkedin_user }}">LinkedIn</a>

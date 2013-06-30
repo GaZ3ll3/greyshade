@@ -356,10 +356,17 @@ $header-height: 30px;
 				}
 			}
 			&.stackoverflow{
-				background:url('/social/stackoverflow.png') center no-repeat #EF7522;
-				border:1px solid #EF7522;
+				background: image-url('social/stackoverflow.png') center no-repeat #EF7522;
+				border: 1px solid #EF7522;
 				&:hover{
-					border:1px solid #CC7A00;
+					border: 1px solid darken(#EF7522, 10%);
+					}
+			}
+			&.mathstackexchange{
+				background: image-url('social/mathstackexchange.png') center no-repeat #FFFFFF;
+				border: 1px solid #FFFFFF;
+				&:hover{
+					border: 1px solid darken(#FFFFFF, 10%);
 				}
 			}
 			&.linkedin{
